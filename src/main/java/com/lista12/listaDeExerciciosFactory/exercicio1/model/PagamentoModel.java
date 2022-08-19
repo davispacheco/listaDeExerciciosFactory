@@ -16,6 +16,8 @@ public class PagamentoModel {
     private BigDecimal valorAPagar;
     @Column(length = 10, nullable = false)
     private BigDecimal diferencaValor;
+    @Column(length = 20, nullable = false)
+    private String status;
     @Column(length = 10, nullable = false)
     private BigDecimal valorPago;
 }
